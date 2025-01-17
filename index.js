@@ -139,7 +139,7 @@ function explodWorm() {
         return {x: circle.style.left, y: circle.style.top};
     });
     locked = true;
-    console.log("boom");
+    console.log("boom !");
     boom.style.transition = "all 0.5s";
     boom.style.backgroundColor = "red";
     setTimeout(() => {
